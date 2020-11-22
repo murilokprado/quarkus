@@ -1,2 +1,3 @@
-# quarkus
-Simple test using quarkus
+# Criando uma aplicação Quarkus
+
+PoC de uma aplicação simples utilizando Quarkus
