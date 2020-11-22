@@ -14,6 +14,28 @@ PoC de uma aplicação simples utilizando Quarkus
 
 `mvn quarkus:dev`
 
+```
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< com.quarkus.sample:user-service >-------------------
+[INFO] Building user-service 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- quarkus-maven-plugin:1.9.2.Final:dev (default-cli) @ user-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Nothing to compile - all classes are up to date
+Listening for transport dt_socket at address: 5005
+__  ____  __  _____   ___  __ ____  ______
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/
+2020-11-22 14:28:30,047 INFO  [io.quarkus] (Quarkus Main Thread) user-service 1.0-SNAPSHOT on JVM (powered by Quarkus 1.9.2.Final) started in 1.345s. Listening on: http://0.0.0.0:8080
+2020-11-22 14:28:30,062 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-11-22 14:28:30,062 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy]
+
+```
+
 ## Compilando o projeto com OS nativo
 
 `mvn clean compile package -Pnative`
